@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TimeSeries.Forecast.Models.ArimaModel" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAABAIABAAAgAAAAAAAAAAAAAQAAAAAAAAAIAIAAAA=</HashCode>
+      <FileName>Arima\ArimaModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.TimeSeries.Arima.ArimaSolver" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIQAgAAAAAAAAIAAAAAAEQAAAAAEAAAAAQAQAACAAAA=</HashCode>
+      <FileName>Arima\ArimaSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.TimeSeries.Arima.HannanRissanen" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Arima\HannanRissanen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.TimeSeries.Arima.YuleWalker" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Arima\YuleWalker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.TimeSeries.Arima.ArimaForecaster">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Arima\ArimaForecaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.Arima.Utils.Integrator" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAEA=</HashCode>
+      <FileName>Arima\Utils\Integrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.Arima.Utils.ForecastUtil" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAgAAAAAEAAAAAAAAAAAQAAAAAABCAAAAA=</HashCode>
+      <FileName>Arima\Utils\ForecastUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.Matrix.InsightsMatrix" Collapsed="true">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQACABGAAAwACCAQAQIAAAAAAAAAAAAAACQSAAgA=</HashCode>
+      <FileName>Matrix\InsightsMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.Matrix.InsightsVector">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAABAAAAQAAAIQIQAgAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Matrix\InsightsVector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.Models.ArimaParams" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AkAAigAAABEAAARGmAEAEAAACBgCACAUAmYAh0TgihA=</HashCode>
+      <FileName>Models\ArimaParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.Models.ForecastResult" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAEBBACgAAAAAACAAAAAAAAAQEwAQAAEAACAKAAACAA=</HashCode>
+      <FileName>Models\ForecastResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeSeries.Forecast.Utils.BackShift" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEARAAAAAQAAAAAIAAAARAAAAkIAACAAAAEAACCA=</HashCode>
+      <FileName>Utils\BackShift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

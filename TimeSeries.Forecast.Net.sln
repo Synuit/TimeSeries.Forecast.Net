@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSeries.Forecast.Net", "TimeSeries.Forecast.Net\TimeSeries.Forecast.Net.csproj", "{27D6E92E-3B24-4F04-B942-FF2204E013C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSeries.Forecast.Net.Tests", "TimeSeries.Forecast.Net.Tests\TimeSeries.Forecast.Net.Tests.csproj", "{ECC15D02-D5EC-41DD-9541-B9C587637BD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27D6E92E-3B24-4F04-B942-FF2204E013C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D6E92E-3B24-4F04-B942-FF2204E013C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D6E92E-3B24-4F04-B942-FF2204E013C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D6E92E-3B24-4F04-B942-FF2204E013C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC15D02-D5EC-41DD-9541-B9C587637BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC15D02-D5EC-41DD-9541-B9C587637BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC15D02-D5EC-41DD-9541-B9C587637BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC15D02-D5EC-41DD-9541-B9C587637BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBE8F0DE-6D80-4639-B7BE-AEA0012DC159}
+	EndGlobalSection
+EndGlobal
